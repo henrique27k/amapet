@@ -1,0 +1,123 @@
+* {
+    margin: 3;
+    padding: 3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-gato {
+    width: 40px;
+    height: 40px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+}
+.logo h1{
+    color: antiquewhite;
+}
+
+nav  {
+    display: flex;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration:  none;
+}
+
+
+.destaque{
+   width: 50%;
+   
+}
+.dog_cat{
+    width: 50%;
+    
+}
+
+.img_banho{
+    display: flex;
+    margin-top: 20px;
+}
+
+.amapet {
+    width: 100%;
+    background-color: rgba(250, 0, 146, 0.295);
+}
+
+.amapet p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.amapet h1{
+    color: rgb(71, 27, 69);
+    text-shadow: 8px 8px 4px ;
+    text-align: center;
+}
+.servicos-oferecidos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .servicos-oferecidos h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #914076;
+    text-align: center;
+    text-decoration:overline;
+    text-shadow: 4px 4px 4px;
+
+    
+  }
+  
+  .banho_e_tosa p{
+    text-align: center;
+    color: rgb(13, 103, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+ }
+ 
+ .banho_e_tosa{
+    width: 250px; 
+    height: 250px; 
+    overflow: hidden;
+    border-radius: 70%; 
+    text-align: center;
+ 
+ }
+
+ 
+ .consultas img{
+   width: 250px;
+   height: 250px;
+   display: inline-block;
+   
+ }
+ .consultas{
+    width: 250px; 
+    height: 250px; 
+    overflow: hidden;
+    border-radius: 70%; 
+    
+ }
+ .consultas p{
+    text-align: center;
+    color: rgb(13, 103, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+ }
